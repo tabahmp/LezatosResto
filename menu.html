@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Makanan dan Minuman</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+      body{
+        background-color: orange;
+      }
+      .title{
+        background-color: aliceblue;
+      }
+    </style>
+  </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning p-4">
+        <a class="navbar-brand container" href="#">Lezatos!resto</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="location.html">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="aboutus.html">About us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+
+
+    <br><br><br><br>
+    <div class="container">
+    
+    
+        <div class="row">
+            
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="imageunsplash/meat.jpg" alt="Makanan 1" height="190px">
+                    <div class="card-body">
+                        <h5 class="card-title">MAKANAN 1</h5>
+                        <p class="card-text">SIRLOIN IMPORT</p>
+                        <button class="btn btn-warning btn-beli" data-item="Makanan 1">Beli</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="imageunsplash/steak.jpg" alt="Makanan 2" height="190px"> 
+                    <div class="card-body">
+                        <h5 class="card-title">MAKANAN 2</h5>
+                        <p class="card-text">BEEF STEAK</p>
+                        <button class="btn btn btn-warning btn-beli btn-beli" data-item="Makanan 2">Beli</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                  <img class="card-img-top" src="MENU/IKAN BAKAR.jpg" alt="Makanan 3" height="190px">
+                  <div class="card-body">
+                      <h5 class="card-title">MAKANAN 3</h5>
+                      <p class="card-text">IKAN BAKAR</p>
+                      <button class="btn btn btn-warning btn-beli btn-beli" data-item="Makanan 3">Beli</button>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <img class="card-img-top" src="MENU/AYAM GORENG.jpg" alt="Makanan 4" height="190px">
+                <div class="card-body">
+                    <h5 class="card-title">MAKANAN 4</h5>
+                    <p class="card-text">AYAM GORENG</p>
+                    <button class="btn btn btn-warning btn-beli btn-beli" data-item="Makanan 4">Beli</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+              <img class="card-img-top" src="MENU/RENDANG.jpg" alt="Makanan 5" height="190px">
+              <div class="card-body">
+                  <h5 class="card-title">MAKANAN 5</h5>
+                  <p class="card-text">RENDANG</p>
+                  <button class="btn btn btn-warning btn-beli btn-beli" data-item="Makanan 5">Beli</button>
+              </div>
+          </div>
+      </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="imageunsplash/coconut special.jpg" alt="Minuman 1" height="190px">
+                    <div class="card-body">
+                        <h5 class="card-title">MINUMAN 1</h5>
+                        <p class="card-text">COCONUT SPECIAL</p>
+                        <button class="btn btn btn-warning btn-beli" data-item="Minuman 1">Beli</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="row">
+            
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="imageunsplash/ice latte.jpg" alt="Minuman 2" height="190px">
+                    <div class="card-body">
+                        <h5 class="card-title">MINUMAN 2</h5>
+                        <p class="card-text">ICE LATTE</p>
+                        <button class="btn btn-warning btn-beli" data-item="Minuman 2">Beli</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="MENU/JUS ALPUKAT.jpg" alt="Minuman 3" height="190px"> 
+                    <div class="card-body">
+                        <h5 class="card-title">MINUMAN 3</h5>
+                        <p class="card-text">JUS BUAH ALPUKAT</p>
+                        <button class="btn btn btn-warning btn-beli btn-beli" data-item="Minuman 3">Beli</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                  <img class="card-img-top" src="MENU/JUS BUAH NAGA.jpg" alt="Minuman 4" height="190px">
+                  <div class="card-body">
+                      <h5 class="card-title">MINUMAN 4</h5>
+                      <p class="card-text">JUS BUAH NAGA</p>
+                      <button class="btn btn btn-warning btn-beli btn-beli" data-item="Minuman 4">Beli</button>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <img class="card-img-top" src="MENU/JUS KIWI.jpeg" alt="Minuman 5" height="190px">
+                <div class="card-body">
+                    <h5 class="card-title">MINUMAN 5</h5>
+                    <p class="card-text">JUS BUAH KIWI</p>
+                    <button class="btn btn btn-warning btn-beli btn-beli" data-item="Minuman 5">Beli</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+              <img class="card-img-top" src="MENU/JUS PISANG.jpg" alt="Minuman 6" height="190px">
+              <div class="card-body">
+                  <h5 class="card-title">MINUMAN 6</h5>
+                  <p class="card-text">JUS BUAH PISANG</p>
+                  <button class="btn btn btn-warning btn-beli btn-beli" data-item="Minuman 6">Beli</button>
+              </div>
+          </div>
+      </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="MENU/JUS STRAWBERRY.jpg" alt="Minuman 7" height="190px">
+                    <div class="card-body">
+                        <h5 class="card-title">MINUMAN 7</h5>
+                        <p class="card-text">JUS BUAH STRAWBERRY</p>
+                        <button class="btn btn btn-warning btn-beli" data-item="Minuman 7">Beli</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="d-grid gap-1 col-1 mx-auto">
+      <a href="index.html"><button class="btn btn-primary mb-4" type="button">HOME</button></a>
+    </div>
+
+    <footer class="bg-light p-4">
+        <h3 class="text-center lead text-dark">Copyright &copy; Lezatos! Resto</h3>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.btn-beli').forEach(button => {
+            button.addEventListener('click', function() {
+                const itemName = this.getAttribute('data-item');
+                Swal.fire({
+                    title: 'Apakah Anda yakin?',
+                    text: `Anda akan membeli ${itemName}`,
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonText: 'Beli',
+                    cancelButtonText: 'Batal'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        Swal.fire(
+                            'Berhasil!',
+                            `${itemName} telah ditambahkan ke keranjang.`,
+                            'success'
+                        );
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+/* .imageHeader{
+    margin-top: 100px;
+} */
+.btn{
+    text-align: center;
+}
+/* .button{
+    margin-left: 25%;
+} */
+
+/* @media (max-width:768){
+
+    .button{
+        margin-left: 50%;
+    }
+
+} */
+/* 
+#services img{
+    height: 130px;
+    padding:10px;
+} */
+.list-group li{
+    font-size: small;
+}
+
